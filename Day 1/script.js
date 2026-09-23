@@ -58,31 +58,59 @@
 
 // root.render(parent);
 
-const complexStructure = React.createElement("div", { id: "container" }, [
-  React.createElement("div", { id: "header" }, [
-    React.createElement("h1", {}, "Website Title"),
-    React.createElement("p", {}, "Tagline here"),
-  ]),
-  React.createElement("div", { id: "main" }, [
-    React.createElement("div", { id: "main" }, [
-      React.createElement(
-        "div",
-        { id: "sidebar" },
-        React.createElement("ul", {}, [
-          React.createElement("li", {}, "Link 1"),
-          React.createElement("li", {}, "Link 2"),
-          React.createElement("li", {}, "Link 3"),
-        ]),
-      ),
-      React.createElement(
-        "div",
-        { id: "content" },
-        React.createElement("p", {}, "Main content here"),
-      ),
-    ]),
-  ]),
-]);
+// const complexStructure = React.createElement("div", { id: "container" }, [
+//   React.createElement("div", { id: "header" }, [
+//     React.createElement("h1", {}, "Website Title"),
+//     React.createElement("p", {}, "Tagline here"),
+//   ]),
+//   React.createElement("div", { id: "main" }, [
+//     React.createElement("div", { id: "main" }, [
+//       React.createElement(
+//         "div",
+//         { id: "sidebar" },
+//         React.createElement("ul", {}, [
+//           React.createElement("li", {}, "Link 1"),
+//           React.createElement("li", {}, "Link 2"),
+//           React.createElement("li", {}, "Link 3"),
+//         ]),
+//       ),
+//       React.createElement(
+//         "div",
+//         { id: "content" },
+//         React.createElement("p", {}, "Main content here"),
+//       ),
+//     ]),
+//   ]),
+// ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+// const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(complexStructure)
+// root.render(complexStructure)
+
+// create a complex structre
+
+// const app = React.createElement("div", {}, [
+//   React.createElement(
+//     "div",
+//     {},
+//     React.createElement("h1", {}, "Welcome to React "),
+//   ),
+//   React.createElement("div", {}, [
+//     React.createElement("h2", {}, "Getting Started"),
+//     React.createElement("p", {}, "This is my first React App!"),
+//     React.createElement("ul", {}, [
+//       React.createElement("li", {}, "learn React"),
+//       React.createElement("li", {}, "Build Projects"),
+//       React.createElement("li", {}, "Get a Job!"),
+//     ]),
+//   ]),
+// ]);
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(app);
+
+// console.log("React Element:", app);
+// console.log("React Object:", React);
+// console.log("ReactDOM Object:", ReactDOM);
+
